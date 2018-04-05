@@ -8,7 +8,8 @@ $(function() {
   // console.log will log a message or object to the browser developer console
   console.log("page loaded...");
 
-  $("button").click(function (){fetchRandomTriviaQuestion(displayQuestionAndAnswer)});
+  $("#button").click(function (){fetchRandomTriviaQuestion(displayQuestionAndAnswer)});
+  $("#hi").click(()=>$("#hi2").text("Oh Hello!"));
 
 });
 
